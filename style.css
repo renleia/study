@@ -19,7 +19,7 @@
 }
 .logo {
     float: left;
-    width: 200px;
+    width: 180px;
     height: 42px;
 }
 .nav {
@@ -29,14 +29,31 @@
 }
 .nav ul li {
     float: left;
+    margin: 0 10px;
     
 }
 .nav ul li a {
     display: block;
-    height: 42px;
+    height: 41px;
     padding: 0 10px;
-    line-height: 42px;
-    font-size: 18px;
+    line-height: 41px;
+    font-size: 17px;
     color: black;
   
+}
+.nav ul li a:hover {
+    border-bottom: 3px solid yellow;
+    color: yellow;
+
+}
+.input {
+    float: left;
+    height: 20px;
+    margin: 9px 0px 9px 20px;
+    border-color: yellow;
+}
+button {
+    float: left;
+    height: 20px;
+    margin: 0px 9px 20px;
 }
