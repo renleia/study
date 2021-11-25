@@ -141,7 +141,7 @@ body {
 .box {
     margin-top: 30px;
     background-color: blanchedalmond;
-    height: 662px;
+    height: 722 px;
 }
 .box-hd {
     height: 50px;
@@ -168,7 +168,7 @@ height: 350px;
 .box-bd div {
     float: left;
     width: 228px;
-    height: 290px;
+    height: 320px;
     margin-left: 10px;
     margin-top: 10px;
     background-color: white;
