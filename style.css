@@ -163,9 +163,10 @@ body {
     margin-right: 30px;
 }
 .box-bd {
-height: 350px;
+    height: 670px;
 }
 .box-bd div {
+    position: relative;
     float: left;
     width: 228px;
     height: 320px;
@@ -174,3 +175,21 @@ height: 350px;
     background-color: white;
     
 }
+
+.box-bd div em {
+    position: absolute;
+    top: 3px;
+    right: -4px;
+}
+
+.box-bd .gif {
+    position: fixed;
+    top: 400px;
+    left: 60px;
+}
+
+.box-bd a :hover {
+    background-image: url(images/blackcat-hover.gif);
+    cla
+}
+
